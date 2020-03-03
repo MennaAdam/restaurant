@@ -1,0 +1,1215 @@
+/* Start Global */
+:root {
+    --main-color: #c8a97e;
+    --header-color: #333333;
+    --paragraph-color: #666666;
+    --font-color: #ffffff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Great Vibes', cursive;
+    src: url(../fonts/GreatVibes-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Oswald', sans-serif;
+    src: url(../fonts/Oswald-Medium.ttf);
+}
+
+/**** Start Custom Framework ****/
+/*++++ Start Sections ++++*/
+.section-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/*++++ End Sections ++++*/
+
+/*++++ Start Padding ++++*/
+/*---- Start Padding Top ---*/
+.pt-05 {
+    padding-top: 5px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pt-25 {
+    padding-top: 25px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+/*---- End Padding Top ---*/
+
+/*---- Start Padding Right ---*/
+.pr-05 {
+    padding-right: 5px;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.pr-15 {
+    padding-right: 15px;
+}
+
+.pr-20 {
+    padding-right: 20px;
+}
+
+.pr-25 {
+    padding-right: 25px;
+}
+
+/*---- End Padding Right ---*/
+
+/*---- Start Padding Bottom ----*/
+
+.pb-05 {
+    padding-bottom: 5px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pb-25 {
+    padding-bottom: 25px;
+}
+
+/*---- End Padding Bottom ----*/
+
+/*---- Start Padding Left ----*/
+.pl-05 {
+    padding-left: 5px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.pl-15 {
+    padding-left: 15px;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.pl-25 {
+    padding-left: 25px;
+}
+
+/*---- End Padding Left ----*/
+/*---- Start Padding Y ----*/
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.py-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.py-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.py-25 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.py-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*---- End Padding Y ----*/
+
+/*---- Start Padding X ----*/
+.px-10 {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.px-15 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.px-20 {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.px-25 {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.px-30 {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+/*---- End Padding X ----*/
+
+/*++++ End Padding ++++*/
+
+/*++++ Start Margin ++++*/
+/*---- Start Margin Top ---*/
+.mt-05 {
+    margin-top: 5px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+/*---- End Margin Top ---*/
+
+/*---- Start Margin Right ---*/
+.mr-05 {
+    margin-right: 5px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mr-25 {
+    margin-right: 25px;
+}
+
+/*---- End Margin Right ---*/
+
+/*--- Start Margin Bottom ---*/
+.mb-05 {
+    margin-bottom: 5px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+/*--- End Margin Bottom ---*/
+
+/*---- Start Margin Left ---*/
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.ml-25 {
+    margin-left: 25px;
+}
+
+/*---- End Margin Left ---*/
+
+/*---- Start Margin Y ----*/
+.my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-15 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.my-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.my-25 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.my-30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*---- End Margin Y ----*/
+
+/*---- Start Margin X ----*/
+.mx-10 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.mx-15 {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.mx-20 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.mx-25 {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.mx-30 {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+/*---- End Margin X ----*/
+
+/*++++ End Margin ++++*/
+
+
+
+
+/**** End Custom Framework ****/
+
+/* End Global */
+
+/* Start Main Header Section */
+.main-header {
+    position: relative;
+}
+
+.main-header .menu-nav {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+}
+
+.bg-transparent .navbar-nav .nav-link {
+    color: var(--font-color);
+    font-size: 15px;
+    padding: 15px;
+}
+
+.navbar-nav .active>.nav-link,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show,
+.navbar-nav .show>.nav-link {
+    /* color: var(--font-color); */
+    text-decoration: underline;
+font-weight: 500;
+}
+
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover {
+    color: var(--main-color);
+}
+
+.main-header .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+
+.head-img {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-header .navbar-brand {
+    color: var(--font-color);
+}
+
+.btn-nav {
+    background-color: var(--main-color);
+    color: var(--font-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn-nav:hover {
+    color: #fff;
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active,
+.btn-outline-success:not(:disabled):not(.disabled):active,
+.show>.btn-outline-success.dropdown-toggle {
+    color: #fff;
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.btn-outline-success.focus,
+.btn-outline-success:focus {
+    box-shadow: 0 0 0 0.2rem rgba(200, 169, 126, .5);
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active:focus,
+.btn-outline-success:not(:disabled):not(.disabled):active:focus,
+.show>.btn-outline-success.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(200, 169, 126, .5);
+}
+
+.btn-outline-success {
+    color: var(--font-color);
+    border-color: var(--main-color);
+}
+
+.form-inline {
+    margin-right: -15px;
+}
+
+.navbar-toggler i {
+    color: var(--main-color);
+}
+
+.home-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    width: 100%;
+}
+
+.home-caption h2 {
+    color: var(--main-color);
+    font-family: 'Great Vibes';
+    font-size: 115px;
+}
+
+.home-caption p {
+    color: var(--font-color);
+    font-size: 30px;
+}
+
+.breakfast-dishes {
+    color: var(--font-color);
+    text-align: center;
+    z-index: 9;
+    position: relative;
+    margin-top: -31%;
+}
+
+.breakfast-dishes .dish img {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 8px;
+}
+
+/* End Main Header Section */
+
+/* Start About Section */
+
+.about-us {
+    margin-top: 130px;
+}
+
+.about-us img {
+    border-radius: 5px;
+}
+
+.about-us .about {
+    position: relative;
+}
+
+.about-us .about h2 {
+    font-size: 50px;
+    color: var(--header-color);
+    position: relative;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.about-us .about .subtitle {
+    font-family: 'Great Vibes';
+    color: var(--main-color);
+    position: absolute;
+    top: -45px;
+    left: 0;
+    right: 0;
+    font-weight: normal;
+    font-size: 100px;
+    display: block;
+    margin-bottom: 0;
+    line-height: 1;
+    margin-top: 0;
+}
+
+
+.about-us .about p {
+    color: var(--paragraph-color);
+    line-height: 1.9;
+    font-size: 20px;
+}
+
+.about-us .info p {
+    color: var(--paragraph-color);
+    font-size: 19px;
+}
+
+.about-us .info p span {
+    color: var(--header-color);
+}
+
+.about-us .phone {
+    color: var(--main-color);
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+/* End About Section */
+
+/* Start Counter Section */
+.counter .count-item .count {
+    color: var(--main-color);
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.counter .count-item h6 {
+    color: var(--paragraph-color);
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.counter .count-text {
+    color: var(--paragraph-color);
+    line-height: 1.9;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* End Counter Section */
+
+/* Start Our Services Section */
+
+.our-services {
+    background-color: #fafafa;
+}
+
+.our-services .service {
+    position: relative;
+}
+
+.our-services .service h2 {
+    font-size: 50px;
+    color: var(--header-color);
+    position: relative;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.our-services .service .subtitle {
+    font-family: 'Great Vibes';
+    color: var(--main-color);
+    position: absolute;
+    top: -45px;
+    left: 0;
+    right: 0;
+    font-weight: normal;
+    font-size: 100px;
+    display: block;
+    margin-bottom: 0;
+    line-height: 1;
+    margin-top: 0;
+}
+
+
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-size: 65px;
+    font-style: normal;
+    color: var(--main-color);
+}
+
+.our-services .service-item h4 {
+    color: var(--header-color);
+}
+
+.our-services .service-item p {
+    color: var(--paragraph-color);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* End Our Services Section */
+
+/* Start Our Menu Section */
+
+.our-menu .menu {
+    position: relative;
+}
+
+.our-menu .menu h2 {
+    font-size: 50px;
+    color: var(--header-color);
+    position: relative;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.our-menu .menu .subtitle {
+    font-family: 'Great Vibes';
+    color: var(--main-color);
+    position: absolute;
+    top: -45px;
+    left: 0;
+    right: 0;
+    font-weight: normal;
+    font-size: 100px;
+    display: block;
+    margin-bottom: 0;
+    line-height: 1;
+    margin-top: 0;
+    transform: translate(-26%, -2%);
+}
+
+.our-menu .menu-items {
+    border: 1px solid #ccc;
+}
+
+.our-menu .menu-img img {
+    width: 100%;
+    height: auto;
+}
+
+.our-menu .menu-info {
+    display: flex;
+}
+
+.our-menu .menu-info h6 {
+    color: var(--header-color);
+    font-size: 22px;
+    width: 90%;
+}
+
+.our-menu .menu-info span {
+    color: var(--main-color);
+    font-size: 22px;
+    width: 13%;
+    line-height: 0;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+.our-menu .menu-info p {
+    color: var(--paragraph-color);
+    font-size: 21px;
+    margin-top: 20px;
+}
+
+.our-menu .btn-menu {
+    background-color: var(--main-color);
+    color: var(--font-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+}
+
+.our-menu .btn-menu:hover {
+    background-color: var(--font-color);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    text-decoration: none;
+}
+
+/* End Our Menu Section */
+
+/* Start Chef Section */
+.chef .chefs {
+    position: relative;
+}
+
+.chef .chefs h2 {
+    font-size: 50px;
+    color: var(--header-color);
+    position: relative;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.chef .chefs .subtitle {
+    font-family: 'Great Vibes';
+    color: var(--main-color);
+    position: absolute;
+    top: -45px;
+    left: 0;
+    right: 0;
+    font-weight: normal;
+    font-size: 100px;
+    display: block;
+    margin-bottom: 0;
+    line-height: 1;
+    margin-top: 0;
+}
+
+.chef .chef-member .chef-img img {
+    border-radius: 5px;
+}
+
+.chef .chef-member .chef-info h6 {
+    color: var(--header-color);
+    font-size: 25px;
+}
+
+.chef .chef-member .chef-info span {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.chef .chef-member .chef-social i {
+    color: var(--main-color);
+    font-size: 17px;
+    margin: 5px;
+}
+
+/* End Chef Section */
+
+/* Start Reservation Section */
+
+.make-reserve {
+    background-image: url(../img/bg_3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: -2;
+}
+
+.make-reserve .book-form {
+    background-color: var(--font-color);
+    width: 100%;
+    z-index: -4;
+    position: relative;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+.make-reserve .reserve {
+    position: relative;
+}
+
+.make-reserve .reserve h2 {
+    font-size: 50px;
+    color: var(--header-color);
+    position: relative;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.make-reserve .reserve .subtitle {
+    font-family: 'Great Vibes';
+    color: var(--main-color);
+    position: absolute;
+    top: -45px;
+    left: 0;
+    right: 0;
+    font-weight: normal;
+    font-size: 95px;
+    display: block;
+    margin-bottom: 0;
+    line-height: 1;
+    margin-top: 0;
+}
+
+.make-reserve .book-form label {
+    font-weight: 600;
+}
+
+.make-reserve .book-form .btn-book {
+    background-color: var(--main-color);
+    color: var(--font-color);
+    padding: 10px 30px;
+    transition: all 0.4s ease-in-out;
+}
+
+.make-reserve .book-form .btn-book:hover {
+    background-color: var(--font-color);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+
+/* End Reservation Section */
+
+/* Start Testimonial Section */
+
+.testimonial .comment {
+    position: relative;
+}
+
+.testimonial .comment h2 {
+    font-size: 50px;
+    color: var(--header-color);
+    position: relative;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.testimonial .comment .subtitle {
+    font-family: 'Great Vibes';
+    color: var(--main-color);
+    position: absolute;
+    top: -45px;
+    left: 0;
+    right: 0;
+    font-weight: normal;
+    font-size: 100px;
+    display: block;
+    margin-bottom: 0;
+    line-height: 1;
+    margin-top: 0;
+}
+
+.testimonial .customer-comment .customer-img img {
+    border-radius: 50%;
+    width: 35%;
+    height: 35%;
+    position: relative;
+}
+
+.testimonial .customer-comment .customer-img i {
+    background-color: var(--main-color);
+    color: var(--font-color);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+}
+
+.testimonial .customer-opinion p {
+    color: var(--paragraph-color);
+    font-size: 17px;
+}
+
+.testimonial .customer-info h6 {
+    font-size: 22px;
+    color: var(--header-color);
+}
+
+.testimonial .customer-info span {
+    color: var(--paragraph-color);
+    font-size: 15px;
+}
+
+/* End Testimonial Section */
+
+/* Start Blog Section */
+
+.blog {
+    background-color: #fafafa;
+}
+
+.blog .blog-header {
+    position: relative;
+}
+
+.blog .blog-header h2 {
+    font-size: 50px;
+    color: var(--header-color);
+    position: relative;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.blog .blog-header .subtitle {
+    font-family: 'Great Vibes';
+    color: var(--main-color);
+    position: absolute;
+    top: -45px;
+    left: 0;
+    right: 0;
+    font-weight: normal;
+    font-size: 100px;
+    display: block;
+    margin-bottom: 0;
+    line-height: 1;
+    margin-top: 0;
+}
+
+.card-img-top {
+    height: 290px;
+}
+
+.blog .card-body span {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 15px;
+}
+
+.blog .card-body .card-title {
+    color: var(--header-color);
+    margin-top: 15px;
+    font-size: 26px;
+}
+
+.blog .card-body .blog-link-more {
+    color: #000;
+}
+
+.blog .card-body .blog-link {
+    color: rgba(0, 0, 0, 0.3);
+    float: right;
+}
+
+/* End Blog Section */
+
+/* Start Footer Section */
+
+.footer {
+    background-color: #141313;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+
+.footer h5 {
+    margin-bottom: 30px;
+    color: var(--font-color);
+}
+
+.footer .about-footer i {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.footer .hours ul li {
+    list-style: none;
+}
+
+.footer .hours ul li span {
+    width: 100%;
+}
+
+.footer .insta .img-footer .img-fluid {
+    max-width: 100%;
+    height: 78px;
+}
+
+.footer .news-letter form input {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: none;
+    color: rgba(255, 255, 255, 0.7) !important;
+    text-align: center;
+    height: calc(1.5em + .75rem + 15px);
+}
+
+.footer .news-letter .form-control:focus {
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
+
+.footer .news-letter .btn-news {
+    background-color: var(--main-color);
+    border: 0;
+    color: var(--font-color);
+    padding: 10px 66px;
+}
+
+.btn.focus,
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.footer .copywrite {
+    font-size: 18px;
+    color: var(--font-color);
+}
+
+/* End Footer Section */
+
+/* Start Media Query */
+
+@media only screen and (max-width: 600px) {
+
+    .change {
+        background-color: #fff !important;
+    }
+
+    .main-header .navbar-brand {
+        color: var(--header-color) !important;
+    }
+
+    .bg-transparent .navbar-nav .nav-link {
+        color: var(--header-color) !important;
+    }
+
+    .navbar-nav .active>.nav-link,
+    .navbar-nav .nav-link.active,
+    .navbar-nav .nav-link.show,
+    .navbar-nav .show>.nav-link {
+        color: var(--main-color) !important;
+    }
+
+    .home-caption h2 {
+        font-size: 45px;
+    }
+
+    .py-30 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .home-caption p {
+        color: var(--font-color);
+        font-size: 20px;
+    }
+
+    .about-us {
+        margin-top: 0px;
+    }
+
+    .about-us .about .subtitle,
+    .our-services .service .subtitle,
+    .our-menu .menu .subtitle,
+    .chef .chefs .subtitle,
+    .testimonial .comment .subtitle,
+    .blog .blog-header .subtitle {
+        font-size: 50px;
+        top: -27px;
+    }
+
+    .make-reserve .reserve .subtitle {
+        font-size: 35px;
+        top: -17px;
+    }
+
+    .about-us .about h2,
+    .our-services .service h2,
+    .our-menu .menu h2,
+    .chef .chefs h2,
+    .make-reserve .reserve h2,
+    .testimonial .comment h2,
+    .blog .blog-header h2 {
+        font-size: 20px;
+    }
+
+    .about-us .about p {
+        font-size: 16px;
+    }
+
+    .about-us .phone {
+        font-size: 25px;
+    }
+
+
+    .our-services .service-item p {
+        font-size: 15px;
+    }
+
+    .breakfast-dishes {
+        color: var(--header-color);
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .our-menu .menu-info h6 {
+        font-size: 20px;
+        width: 63%;
+    }
+
+    .our-menu .menu-info p {
+        font-size: 15px;
+    }
+
+    .testimonial .customer-opinion p {
+        font-size: 13px;
+    }
+
+    .blog .card-body .card-title {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .change {
+        background-color: #fff !important;
+    }
+
+    .main-header .navbar-brand {
+        color: var(--header-color) !important;
+    }
+
+    .bg-transparent .navbar-nav .nav-link {
+        color: var(--header-color) !important;
+    }
+
+    .navbar-nav .active>.nav-link,
+    .navbar-nav .nav-link.active,
+    .navbar-nav .nav-link.show,
+    .navbar-nav .show>.nav-link {
+        color: var(--main-color) !important;
+    }
+
+    .home-caption h2 {
+        font-size: 45px;
+    }
+
+    .py-30 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .home-caption p {
+        color: var(--font-color);
+        font-size: 20px;
+    }
+
+    .about-us {
+        margin-top: 0px;
+    }
+
+    .about-us .about .subtitle,
+    .our-services .service .subtitle,
+    .our-menu .menu .subtitle,
+    .chef .chefs .subtitle,
+    .testimonial .comment .subtitle,
+    .blog .blog-header .subtitle {
+        font-size: 50px;
+        top: -27px;
+    }
+
+    .make-reserve .reserve .subtitle {
+        font-size: 35px;
+        top: -17px;
+    }
+
+    .about-us .about h2,
+    .our-services .service h2,
+    .our-menu .menu h2,
+    .chef .chefs h2,
+    .make-reserve .reserve h2,
+    .testimonial .comment h2,
+    .blog .blog-header h2 {
+        font-size: 20px;
+    }
+
+    .about-us .about p {
+        font-size: 16px;
+    }
+
+    .about-us .phone {
+        font-size: 25px;
+    }
+
+
+    .our-services .service-item p {
+        font-size: 15px;
+    }
+
+    .breakfast-dishes {
+        color: var(--header-color);
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .our-menu .menu-info h6 {
+        font-size: 20px;
+        width: 63%;
+    }
+
+    .our-menu .menu-info p {
+        font-size: 15px;
+    }
+
+    .testimonial .customer-opinion p {
+        font-size: 13px;
+    }
+
+    .blog .card-body .card-title {
+        font-size: 13px;
+    }
+}
+
+/* End Media Query */
